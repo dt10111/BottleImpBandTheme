@@ -109,7 +109,7 @@ get_header(); ?>
 							
 						<div class="row">
 								
-								<div id="tracklist">
+								<div class="col-md-12" id="tracklist">
 									<?php if (get_post_meta( get_the_ID(), 'bip_tracklist' )) {
 										echo '<h3 style="border-bottom: 1px solid #000;">Tracklist</h3>';
 										$playlists = get_post_meta( $post->ID, 'bip_tracklist'); 
@@ -127,8 +127,9 @@ get_header(); ?>
 										}
 										}
 									?>									
+								
+								<div id="tracklistDisplay">
 								</div>
-								<div class="col-md-12" id="tracklistDisplay">
 								</div>
 							</div>
 					<div class="row"  style="margin-top: 5%;">
