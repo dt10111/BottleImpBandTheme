@@ -38,7 +38,7 @@ get_header(); ?>
 										};
 									?>	
 							</div>					
-						<div class="col-md-4 post_thumbnail thumbeffect">
+						<div class="col-md-5 post_thumbnail thumbeffect">
 							<a href="<?php the_permalink(); ?>">
 						<img src="<?php 
 						$attachment_id = get_post_meta( get_the_ID(), 'bip_cover-image', true );
@@ -102,7 +102,7 @@ get_header(); ?>
 							
 						</div>
 								
-						<div class="col-md-8">
+						<div class="col-md-7">
 							<div class="entry-content">
 							<?php the_content(); ?>
 							</div><!-- .entry-content -->
